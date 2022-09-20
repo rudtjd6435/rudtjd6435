@@ -1,0 +1,23 @@
+<html>
+     <script>
+        //if 조건문 ex3.html
+
+        /*
+         회원 탈퇴하겠습니까?라고 확인창이 뜨면
+         확인 버튼 클릭시 '탈퇴 처리 되었습니다' 알림창
+         취소 버튼 클릭시 '취소 되었습니다' 알림창
+         */
+
+          let member = confirm(`회원 탈퇴 하시겠습니까?`);// 확인 : true(1), 취소:false(0)
+
+          // f(member === true) {
+          // if(member ===1) { 데이터 타입이 다르기 때문에 false로 변환
+          // if (member == 1) {
+        if(member) {// true, false
+            alert(`탈퇴 처리되었습니다.`)
+          } else{
+            alert(`취소 되었습니다`)
+          }
+
+          </script>
+          </html>
